@@ -1,0 +1,30 @@
+#+TITLE: Cubic Payload datapack
+#+AUTHOR: Bastien Morino
+
+*This repository contains data and resource packs.*
+The datapack aims to recreate Team Fortress 2's Payload gamemode in Minecraft.
+
+* Downloading
+To download this repository, go anywhere you want and run the following command :
+#+begin_src sh
+  git clone https://github.com/MrGhastien/cubic-payload
+#+end_src
+this will create a new directory named ~cubic-payload~ where you ran this command.
+You can also add another argument to tell Git how to name the destination directory :
+#+begin_src sh
+  git clone https://github.com/MrGhastien/cubic-payload dirname
+#+end_src
+This command will download the contents of this repository inside a directory named ~dirname~. If the directory does not exist, it will create one. ~dirname~ can be whatever you want !
+
+* Installation
+** Data pack
+To install the datapack for one of your Minecraft save :
+- Copy the contents of the ~datapack~ directory inside the repository.
+- Go inside the ~datapack~ directory inside your save. Usually located at ~C:\Users\<your user>\Appdata\Roaming\.minecraft\saves\<save name>\datapack~, with ~<user name>~ being your user name and ~<save name>~ the name of your save.
+- Paste the contents you copied earlier into a new directory named ~cubic-payload~.
+
+** Resource pack
+You should know how to do this, but as a remainder :
+- Copy the contents of the ~resourcepack~ directory inside the repository.
+- Go inside your Minecraft installation's ~resourcepacks~ directory. Usually located at ~C:\Users\<your user>\Appdata\Roaming\.minecraft\resourcepacks~, with ~<user name>~ being your user name.
+- Paste the contents you copied earlier into a new directory with the name of your choice. The name you choose will be used in-game as the resourcepack's name.

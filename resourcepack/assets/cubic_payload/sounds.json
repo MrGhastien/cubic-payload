@@ -1,0 +1,35 @@
+{
+	"cp.capture": {
+		"sounds": [
+			"cubic_payload:cp/capture"
+		]
+	},
+	"weapons.sniper.bolt": {
+		"sounds": [
+			"cubic_payload:weapons/sniper/bolt"
+		]
+	},
+	"weapons.sniper.shoot.blue": {
+		"sounds": [
+			"cubic_payload:weapons/sniper/shoot_blue"
+		]
+	},
+	"weapons.sniper.shoot.red": {
+		"sounds": [
+			"cubic_payload:weapons/sniper/shoot_red"
+		]
+	},
+	"weapons.turret.shoot": {
+		"sounds": [
+			{ 
+				"name": "cubic_payload:weapons/turret/shaft_shoot",
+				"pitch": 1
+			}
+		]
+	},
+	"weapons.turret.spot": {
+		"sounds": [
+			"cubic_payload:weapons/turret/spot"
+		]
+	}
+}

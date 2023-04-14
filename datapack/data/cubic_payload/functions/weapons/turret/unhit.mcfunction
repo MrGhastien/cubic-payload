@@ -1,0 +1,1 @@
+tag @e[tag=hit] remove hit

@@ -1,0 +1,16 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":10000001}, "model": "item/golden_hoe"},
+		{"predicate": {"custom_model_data":10000002}, "model": "item/diamond_hoe"},
+		{"predicate": {"custom_model_data":10000003}, "model": "item/rifle"},
+		{"predicate": {"custom_model_data":10000004}, "model": "item/diamond_shovel"},
+		{"predicate": {"custom_model_data":10000011}, "model": "item/cloaker"},
+		{"predicate": {"custom_model_data":10000012}, "model": "item/cloaker_open"}
+
+	]
+}

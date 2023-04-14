@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_detector_rail",
+  "textures": {
+    "tip": "block/detector_rail_tip_blue"
+  }
+}

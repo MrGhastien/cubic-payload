@@ -1,0 +1,28 @@
+{
+	"item.crossbow.loading_middle": {
+		"replace": true,
+		"sounds": [
+			{ "name": "cubic_payload:weapons/sniper/loading_middle", "volume": 1.0, "pitch": 0.95}
+		]
+	},
+	"item.crossbow.loading_start": {
+		"replace": true,
+		"sounds": [
+			{ "name": "cubic_payload:weapons/sniper/loading_start", "volume": 1.0, "pitch": 0.95}
+		]
+	},
+	"item.crossbow.loading_end": {
+		"replace": true,
+		"sounds": [
+			{ "name": "cubic_payload:weapons/sniper/bolt", "volume": 1.0, "pitch": 0.95}
+		]
+	},
+	"item.crossbow.shoot": {
+		"subtitle": "Tir de Sniper",
+		"replace": true,
+		"sounds": [
+			{ "name": "cubic_payload:weapons/sniper/shoot_2", "volume": 10},
+			{ "name": "cubic_payload:weapons/sniper/shoot_3", "volume": 10}
+		]
+	}
+}

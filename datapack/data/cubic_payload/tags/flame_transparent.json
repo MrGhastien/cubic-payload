@@ -1,0 +1,11 @@
+{
+	"replace":false,
+	"values": [
+		"minecraft:lava",
+		"minecraft:dead_bush",
+		"minecraft:air",
+		"#minecraft:rails",
+		"#minecraft:fences",
+		"#cubic_payload:torches"
+	]
+}

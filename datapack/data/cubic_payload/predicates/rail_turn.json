@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "cubic_payload:rail_ne"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "cubic_payload:rail_nw"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "cubic_payload:rail_se"
+    },
+	{
+      "condition": "minecraft:reference",
+      "name": "cubic_payload:rail_sw"
+    }
+  ]
+}

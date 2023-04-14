@@ -1,0 +1,49 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "team": "blue",
+      "distance": {
+        "x": {
+          "min": 0,
+          "max": 1.5
+        },
+        "y": {
+          "min": 0,
+          "max": 1.5
+        },
+        "z": {
+          "min": 0,
+          "max": 1.5
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "team": "red",
+        "distance": {
+          "x": {
+            "min": 0,
+            "max": 1.5
+          },
+          "y": {
+            "min": 0,
+            "max": 1.5
+          },
+          "z": {
+            "min": 0,
+            "max": 1.5
+          }
+        }
+      }
+    }
+  }
+]
